@@ -1,5 +1,11 @@
+import Dashboard from "./components/Dashboard";
+
 function App() {
-  return <div className="text-red-500">Test</div>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 }
 
 export default App;
